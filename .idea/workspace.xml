@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="06a20e35-f676-4e78-9da4-bd4b3f305b35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nd705/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/nd705/Port.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/nd705/AppTest.java" afterDir="false" />
+    <list default="true" id="06a20e35-f676-4e78-9da4-bd4b3f305b35" name="Changes" comment="added readme.md">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/nd705/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/nd705/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.AppTest.testGenerateSecuence">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.nd705.App" />
       <module name="port" />
@@ -88,6 +80,22 @@
       <option name="PACKAGE_NAME" value="com.nd705" />
       <option name="MAIN_CLASS_NAME" value="com.nd705.AppTest" />
       <option name="METHOD_NAME" value="testGenerateCombinations" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testGenerateSecuence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="port" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nd705.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nd705" />
+      <option name="MAIN_CLASS_NAME" value="com.nd705.AppTest" />
+      <option name="METHOD_NAME" value="testGenerateSecuence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testGenerateSecuence" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.AppTest.testGenerateCombinations" />
         <item itemvalue="JUnit.AppTest.testGetSequences" />
@@ -142,11 +151,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1681053888379</updated>
-      <workItem from="1681053889749" duration="5664000" />
+      <workItem from="1681053889749" duration="6051000" />
     </task>
+    <task id="LOCAL-00001" summary="result">
+      <created>1681096929556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681096929557</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added readme.md">
+      <created>1681097167408</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681097167408</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="result" />
+    <MESSAGE value="added readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="added readme.md" />
   </component>
 </project>

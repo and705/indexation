@@ -28,6 +28,14 @@ public class AppTest
         assertEquals(expected, actual);
     }
 
+    public void testGenerateSecuence() {
+        String[] indexes = {"1,3-5", "2", "3-4"};
+        List<Integer> expected =
+                Arrays.asList(1, 3, 4, 5, 2, 3, 4);
+        List<Integer> actual = Port.generateSequence(indexes);
+        assertEquals(expected, actual);
+    }
+
     @Test
     public void testGenerateCombinations() {
         List<List<Integer>> sequences = Arrays.asList(
